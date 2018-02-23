@@ -7,7 +7,8 @@
     (cons n (range (+ n 1) m))))
 
 (define (answer n s)
-  n)
+  (let (xs (range 1 n))
+    xs))
 
-; (display (answer 10 15))
-(display (range 0 10))
+(display (answer 10 15))
+; (display (range 0 10))
