@@ -1,4 +1,5 @@
 ; eq? を実装する
+(define-module 2.54)
 
 (define (eqaul_? a b)
   (if (and (eq? a '()) (eq? b '()))
